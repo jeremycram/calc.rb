@@ -27,7 +27,9 @@ def multiply
   n1 = gets.chomp.to_i
   n2 = gets.chomp.to_i
   puts (n1 * n2)
-
+ if n2 == (0)
+   puts 'invalid'
+ end
 end
 
 def subtract
